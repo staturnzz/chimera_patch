@@ -27,7 +27,7 @@ echo "[*] adding dylib..."
 
 echo "[*] moving files..."
 mkdir $FRAMEWORKS
-cp -a $FRAMEWORKS/chimera4k.dylib
+cp -a chimera4k.dylib $FRAMEWORKS/chimera4k.dylib
 
 ldid -S $CHIMERA
 
