@@ -14,7 +14,6 @@ SRC = $(wildcard */*.m) $(wildcard */*.c) src/util.s
 all: $(SRC)
 	$(CC) $(CFLAGS) $(LDFLAGS) -o chimera4k.dylib $^
 	$(LDID) -S chimera4k.dylib
-	cp -a chimera4k.dylib ../chimera4k.dylib
 
 clean:
 	@rm -rf chimera4k.dylib
