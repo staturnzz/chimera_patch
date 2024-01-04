@@ -13,6 +13,9 @@ make all
 ```bash
 git clone --recursive https://github.com/staturnzz/chimera_patch.git
 cd chimera_patch
+```
+Then download chimera_patch.zip from [releases](https://github.com/staturnzz/chimera_patch/releases/tag/1.0) and move the `chimera4k.dylib` into the folder you cloned into, then run the patcher as shown below (*requires ldid and xxd*).
+```bash
 ./patch_ipa <stock.ipa> <patched.ipa>
 ```
 
